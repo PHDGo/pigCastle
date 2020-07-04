@@ -1,0 +1,8 @@
+0：background0
+1：background1
+...
+n：backgroundn
+n+1：terrain0
+n+2：terrain1
+...
+last：foreground

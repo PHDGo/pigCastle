@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>King and pigs</title>
+  <style>
+    body {
+      background-color: #000;
+    }
+    .game {
+      position: relative;
+      width: 1000px;
+      height: 640px;
+      margin: 50px auto;
+      background-color: #3f3851;
+    }
+    #back,
+    #mainStage {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="game">
+    <canvas id="back" width="1000" height="640"></canvas>
+    <canvas id="mainStage" width="1000" height="640"></canvas>
+  </div>
+  <script src="./bundle.js"></script>
+</body>
+</html>
